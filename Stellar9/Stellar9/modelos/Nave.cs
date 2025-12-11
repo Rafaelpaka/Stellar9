@@ -8,6 +8,7 @@
         public string Modelo { get; set; } = string.Empty;
 
         public decimal CapacidadeCargaKG { get; set; } = 0;
+        public StatusNave Status { get; set; } = StatusNave.EmOrbita;
 
         public enum StatusNave{
             EmOrbita,

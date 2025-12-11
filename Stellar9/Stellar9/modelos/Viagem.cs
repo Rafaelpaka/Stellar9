@@ -7,6 +7,6 @@
         public string Destino {  get; set; } = string.Empty;
         public DateTime DataPartida { get; set; }
 
-        public List<Guid> ViagemId = new List<Guid>();
+        public List<Guid> NavesIds = new List<Guid>();
     }
 }
